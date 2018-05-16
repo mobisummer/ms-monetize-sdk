@@ -3,10 +3,11 @@
   <groupId>com.ms.monetize</groupId>
   <artifactId>sdk-ht_sl_cl</artifactId>
   <versioning>
-    <release>2.1.3</release>
+    <release>2.1.4</release>
     <versions>
       <version>2.1.3</version>
+      <version>2.1.4</version>
     </versions>
-    <lastUpdated>20180510030218</lastUpdated>
+    <lastUpdated>20180516114050</lastUpdated>
   </versioning>
 </metadata>
