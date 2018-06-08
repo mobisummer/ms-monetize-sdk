@@ -3,11 +3,12 @@
   <groupId>com.ms.monetize</groupId>
   <artifactId>sdk-as_wm-gp</artifactId>
   <versioning>
-    <release>2.2.2</release>
+    <release>2.2.2t</release>
     <versions>
       <version>2.2.1</version>
       <version>2.2.2</version>
+      <version>2.2.2t</version>
     </versions>
-    <lastUpdated>20180607095808</lastUpdated>
+    <lastUpdated>20180608103756</lastUpdated>
   </versioning>
 </metadata>
