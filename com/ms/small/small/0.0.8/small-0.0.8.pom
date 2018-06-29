@@ -4,6 +4,6 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.ms.small</groupId>
   <artifactId>small</artifactId>
-  <version>0.0.7</version>
+  <version>0.0.8</version>
   <packaging>aar</packaging>
 </project>
