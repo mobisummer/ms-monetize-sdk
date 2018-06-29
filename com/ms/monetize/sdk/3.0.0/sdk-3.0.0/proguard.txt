@@ -1,0 +1,43 @@
+-keep class android.support.v4.content.LocalBroadcastManager{*;}
+-keepattributes InnerClasses
+-keepattributes EnclosingMethod
+-keepattributes *Annotation*
+-dontwarn InnerClasses
+-dontwarn EnclosingMethod
+
+
+-keep public class com.ms.monetize.ads.* {
+   public <methods>;
+}
+
+-keep class com.ms.monetize.interact.*{
+  *;
+}
+
+-keep class com.ms.monetize.ads.upgrade.RequestParam{*;}
+-keep class com.ms.monetize.ads.upgrade.RequestParam$*{*;}
+
+-dontnote com.google.android.gms.ads.identifier.*
+
+-keep class com.ms.monetize.control.AdController{*;}
+-dontwarn com.ms.monetize.**
+
+# Keep annotation begin
+# KeepInit
+-keep @interface com.ms.monetize.outer.annotation.KeepInit
+-keepclasseswithmembers,allowobfuscation @com.ms.monetize.outer.annotation.KeepInit class * {
+   public <init>(...);
+}
+# Keep annotation end
+
+##---------------Begin: proguard configuration for Gson  ----------
+-keepattributes Signature
+-keepattributes *Annotation*
+-dontwarn sun.misc.**
+-keep class com.google.gson.examples.android.model.** { *; }
+-keep class * implements com.google.gson.TypeAdapterFactory
+-keep class * implements com.google.gson.JsonSerializer
+-keep class * implements com.google.gson.JsonDeserializer
+-keep class com.google.gson.**{*;}
+##---------------End: proguard configuration for Gson  ----------
+-keep class android.support.**{*;}
